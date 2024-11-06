@@ -6,7 +6,6 @@ This project provides an automated setup for AWS IoT Fleet Provisioning with Gre
 
 ## Prerequisites
 - **[STM32MP135F-DK](https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html) or [STM32MP257F-DK](https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html)** : The device must be set up and [accessible over the network](https://wiki.st.com/stm32mpu/wiki/How_to_setup_a_WLAN_connection).
-- **[X-LINUX-AWS](https://wiki.st.com/stm32mpu/wiki/X-LINUX-AWS_Starter_package)**: Ensure that X-LINUX-AWS is installed on the STM32MP1/MP2.
 - **AWS Account**: Access to an AWS account with permissions to manage IAM, IoT, Greengrass, and CloudFormation stacks.
 - **[AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)**: Install and [configure](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html) the AWS CLI on your local machine.
 - **[Git Bash](https://git-scm.com/downloads)**: Required for Windows users to provide a Unix-like shell compatible with the scripts.
