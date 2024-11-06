@@ -94,7 +94,7 @@ aws greengrassv2 list-core-devices --status HEALTHY
 To remove AWS IoT Greengrass from your device, run `uninstall.sh` on the MPU:
 
 ```bash
-chmod +x uninstall_greengrass.sh
+chmod +x uninstall.sh
 ./uninstall.sh
 ```
 
